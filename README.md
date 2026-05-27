@@ -1,4 +1,4 @@
-# AI Upskill Project
+# AI News Research Agent
 
 **Blend's AI engineering onboarding curriculum.** A 5-week self-paced project
 that takes engineers from async Python through agents, MCP, and evaluation
