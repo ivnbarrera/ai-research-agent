@@ -13,7 +13,7 @@ by building a small AI-powered news pipeline end-to-end.
 ## Where to start
 
 1. Read [`docs/architecture/overview.md`](docs/architecture/overview.md) for the 20-min big-picture orientation.
-2. Open [`docs/milestones/setup.md`](docs/milestones/setup.md) and follow it. It will get you to a working dev environment in one evening.
+2. Open [`docs/setup.md`](docs/setup.md) and follow it. It will get you to a working dev environment in one evening.
 3. From there, milestones link to the next one in sequence.
 
 ---
@@ -42,7 +42,7 @@ cp .env.example .env               # then paste your API key
 uv run python scripts/verify_setup.py    # should print all ✅
 ```
 
-Then open [`docs/milestones/setup.md`](docs/milestones/setup.md).
+Then open [`docs/setup.md`](docs/setup.md).
 
 ---
 
