@@ -1,11 +1,13 @@
 """Save articles to markdown files."""
+from datetime import datetime
 from pathlib import Path
 from typing import List
-from datetime import datetime
+
 from src.models.article import Article
+from src.storage.base_storage import ArticleStorage
 
 
-class MarkdownStorage:
+class MarkdownStorage(ArticleStorage):
     """
     Saves articles to markdown files.
     
